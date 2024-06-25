@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Rubik", sans-serif;
+  color: #495057;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+header {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(Restaurant.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container {
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  width: 50%;
+}
+
+header,
+h1 {
+  color: #fff;
+  font-size: 52px;
+  margin-bottom: 42px;
+  line-height: 1.05;
+  font-weight: 600;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+  margin-top: 32px;
+}
+.btn {
+  margin-left: 0px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 12px 34px;
+  margin: 22px 44px;
+  display: inline-block;
+  background-color: #f76707;
+  color: #fff;
+}
+
+section {
+  padding: 66px 0px;
+}
+h2 {
+  color: #495057;
+  font-size: 48;
+  font-weight: 600;
+}
